@@ -1,0 +1,545 @@
+html{
+    overflow-x:hidden;
+    width:100vw;
+background-color: black;
+box-sizing: border-box;
+}
+*{margin: 0;
+
+padding: 0;
+
+}
+
+.topbar{
+color: black;
+    width:100%;
+    background-color:black;
+    height:10vh;
+    
+
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+.topbar-info{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    background-color:black;
+    color: white;
+    
+    width:40%;
+    
+}
+.topbar-info ul{
+    display: flex;
+    margin-left:4rem;
+    padding:2.5%;
+}
+.topbar-info ul li{
+    list-style:none;
+    padding:5%;
+    margin:1%;
+}
+.top-name{
+    width:15%;
+    color:white;
+    background-color: black;
+    
+}
+.project-link{
+    background-color:black;
+    color:white;
+    display:flex;
+    
+    align-items:flex-start;
+    justify-content:center;
+    width:50%;
+
+}
+.project-link a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+display:flex;
+flex-direction: column;
+width:100vw;
+height:100vh;
+font-family: poppins,sans-serif;
+font-size:1rem;
+
+}
+.main{
+    background-color:black;
+    height:254vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info-container{
+    margin-top:9vh;
+    width:100%;
+    height:35vh;
+    
+    padding:2rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+    
+}
+.info-container h4{
+    margin-bottom: 1rem;
+}
+.info-container h1{
+    margin-bottom: 1rem;;
+}
+.info-container p{
+    margin-bottom:1rem;
+    width:70%;
+    font-size:1.5rem;
+}
+
+.dev-intro{
+    color:whitesmoke;
+
+
+
+}
+.dev-intro h6{
+    text-transform: capitalize;
+}
+.name{
+    color:orangered;
+}
+.intro{
+    font-size:3.3rem;
+}
+
+.sidebar-info{
+    color:white;
+    margin-top:5rem;
+    background-color:black;
+    
+}
+
+.sidebar-info li{
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.578);
+    color: wheat;
+    border:3px solid wheat;
+    margin-top:1rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    
+    cursor: pointer;
+}
+.name{
+    padding-right:.5rem;
+    background-color:orangered;
+    color:black;
+    
+}
+.sidebar-info li:hover{
+    background-color: orangered;
+    color:black;
+
+}
+li a{
+text-decoration:none;
+color: white;
+
+}
+.my-cv{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+    padding-bottom:0.9rem;
+    
+
+
+}
+.cv-button{
+    background-color:orangered;
+    color:black;
+    padding:1rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    border-radius:3%;
+    
+}
+.gate-image{
+    width:100vw;
+    height:40vh;
+    color:white;
+background-image: url('./images/gate.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.gate{
+    width:100%;
+    height:100%;
+}
+.about{
+    background-color: black;
+    
+    height:20vh;
+    width:100%;
+    display: flex;
+    color:white;
+    padding:1vh;
+    
+    
+    
+}
+.about-heading{
+    width:40%;
+    height:100%;
+    font-size:10vh;
+    font-family:poppins,sans-serif;
+    text-align: center;
+
+}
+.about .me{
+    color: orangered;
+    padding-left:.5rem;
+}
+.about-info{
+    width:60%;
+    height:100%;
+    font-size:1.6rem;
+}
+.about-info p{
+    width:70%;
+    
+}
+.strength{
+    background-color: black;
+    
+    height:20vh;
+    width:100%;
+    display: flex;
+    color:white;
+
+    
+    
+
+}
+.strength-info{
+    width:50%;
+    height:100%;
+    font-size:1.6rem;
+    
+    padding-left:2rem;
+}
+.strength-heading{
+    width:50%;
+    height:100%;
+    font-size:10vh;
+    font-family:poppins,sans-serif;
+    text-align:left;
+    
+}
+.strength-heading span{
+    color:orangered;
+    
+}
+
+.strength-info p{
+    width:70%;
+}
+.education{
+    background-color: black;
+    
+    height:20vh;
+    width:100%;
+    display: flex;
+    color:white;
+    padding:1vh; 
+    
+}
+.edu-heading{
+    width:40%;
+    height:100%;
+    font-size:10vh;
+    font-family:poppins,sans-serif;
+    text-align: center;
+    color:orangered;   
+}
+.edu-info{
+    width:60%;
+    height:100%;
+    font-size:1.6rem;
+}
+.edu-info p{
+    width:70%;
+}
+.portfolio{
+    width:100%;
+    height:78vh;
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+.port-heading{
+    width:100%;
+    height:10vh;
+    color:white;
+    text-align: center;
+    font-size:4rem;
+}
+.port-heading span{
+    color:orangered;
+
+    padding:1rem;
+
+}
+.port-info{
+    width:100%;
+    height:69vh;
+    background-color: aliceblue;
+    display: flex;
+}
+.project{
+    width:25%;
+    height:100%;
+    border:2px solid black;
+    background-size: cover;
+background-repeat: no-repeat;
+}
+.proone{
+background-image:url('./images/phone.jpeg');
+padding-top:.6rem;
+
+
+}
+.proone div{
+    display: flex;
+    flex-direction: column;
+    padding-top:17rem;
+    font-size:1.4rem;
+    padding-left:1.5rem;
+}
+.protwo{background-image:url('./images/todo.jpeg')}
+.protwo div{
+    display: flex;
+    flex-direction: column;
+    padding-top:17rem;
+    color: black;
+    font-size:1.4rem;
+    padding-left:1.4rem;
+}
+.prothree{background-image:url('./images/weather.jpeg')}
+.prothree div{
+display: flex;
+flex-direction: column;
+padding-top:17rem;
+font-size:1.4rem;
+padding-left:1.4rem;
+}
+.profour{background-image:url('./images/notes.jpeg')
+
+
+}
+
+.profour div{
+    display: flex;
+    flex-direction: column;
+    padding-top:17rem;
+    font-size:1.4rem;
+    padding-left:1.4rem;   
+}
+.portfolio2{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:24vh;
+    border:2px solid black;
+   
+background-color:black;
+margin-right:1rem;
+
+color:white;
+}
+.contact-details{
+    margin-top:1rem;
+    margin-left:1.1rem;
+    height:100%;
+    width:100%;
+    background-color:black;
+    
+}
+.portfolio2 h1{
+    color:orangered;
+    font-size:3rem;
+}
+.contact-details span{
+    margin-right:.2em;
+}
+@media (max-width:970px)  
+{
+    .container
+    {
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+    
+}
+.topbar{
+    display: none;
+}
+
+     .gate-image{
+         height:15vh;
+         
+     }
+     
+     nav{
+         width:100%;
+         box-sizing: border-box;
+         padding:2rem;
+         
+     }
+     .info-container{
+        display: flex;
+        justify-content:center;
+        align-items:flex-start;
+        margin-top:0;
+        height:29vh;
+        
+
+     }
+.info-container h4{
+    font-size:2.5vw;
+}
+.info-container h1{
+    font-size:3vw ;
+}
+.info-container p{
+    font-size:3vw;
+    
+
+}
+    .my-cv{
+        height:10vh;
+        
+        
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height:12vh;
+        
+        
+        
+    }
+    .about-heading{
+        width:100%;
+        font-size:3vh;
+    height:45%;
+    text-align: left;
+    padding-left:2vh;
+    }
+    .about-info{
+        width:100%;
+        font-size:2.1vw;
+        padding-top:0;
+        padding-left:2vh;
+        
+        
+    }
+.strength{display: flex;
+    flex-direction: column-reverse;
+    height:10vh;
+    padding-left:2rem;
+
+    padding-right:0.9rem; 
+    
+}
+.strength-info{width:100%;
+    font-size:2.1vw;
+    padding-top:0;
+    padding-left: 0;
+}
+.strength-heading{ width:100%;
+    font-size:3vh;
+height:7vh;
+
+
+}    
+.strength span{
+    padding-left:1vh;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    height:12vh;
+    padding-left:2rem;
+     
+    padding-right:0.9rem; 
+}
+.edu-info{
+    width:100%;
+    font-size:2.1vw;
+    padding-top:0;
+    padding-left: 0;
+    text-align:left;
+
+}
+.edu-heading{
+    width:100%;
+    font-size:3vh;
+height:45%;
+text-align: left;
+}
+.portfolio{
+
+width: 100%;
+height:300vh;
+background-color:black;
+display:flex ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.port-heading{
+    width:100%;
+    font-size:3vh;
+height:10vh;
+text-align:center;
+padding-bottom: 0;
+
+padding:0;
+}
+.port-info{display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:290vh;
+width:97%;
+
+}
+.project{
+width:100%;
+height:75vh;
+    
+}
+.port-heading span{padding-bottom:0;
+    margin-bottom: 0;
+    }
+ }   

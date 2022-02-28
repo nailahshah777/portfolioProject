@@ -74,7 +74,7 @@ font-size:1rem;
 }
 .main{
     background-color:black;
-    height:254vh;
+    height:265vh;
     width:100vw;
     display: flex;
     flex-direction: column;
@@ -330,7 +330,7 @@ padding-top:.6rem;
     display: flex;
     flex-direction: column;
     padding-top:17rem;
-    font-size:1.4rem;
+    font-size:1.2rem;
     padding-left:1.5rem;
 }
 .protwo{background-image:url('./images/todo.jpeg')}
@@ -339,7 +339,7 @@ padding-top:.6rem;
     flex-direction: column;
     padding-top:17rem;
     color: black;
-    font-size:1.4rem;
+    font-size:1.2rem;
     padding-left:1.4rem;
 }
 .prothree{background-image:url('./images/weather.jpeg')}
@@ -347,7 +347,7 @@ padding-top:.6rem;
 display: flex;
 flex-direction: column;
 padding-top:17rem;
-font-size:1.4rem;
+font-size:1.2rem;
 padding-left:1.4rem;
 }
 .profour{background-image:url('./images/notes.jpeg')
@@ -359,14 +359,14 @@ padding-left:1.4rem;
     display: flex;
     flex-direction: column;
     padding-top:17rem;
-    font-size:1.4rem;
+    font-size:1.2rem;
     padding-left:1.4rem;   
 }
 .portfolio2{
     display:flex;
     flex-direction: column;
     width:100%;
-    height:24vh;
+    height:30vh;
     border:2px solid black;
    
 background-color:black;
@@ -541,5 +541,12 @@ height:75vh;
 }
 .port-heading span{padding-bottom:0;
     margin-bottom: 0;
+    }
+    .portfolio2 h3{
+margin-top:1rem;
+margin-left:.4rem;
+    }
+    .portfolio2 .contact-details{
+        margin-bottom:1rem;
     }
  }   
